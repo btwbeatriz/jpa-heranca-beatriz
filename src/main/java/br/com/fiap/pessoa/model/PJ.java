@@ -11,7 +11,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@DiscriminatorValue("PJ")
+@Table(name = "TB_PJ")
 public class PJ extends Pessoa {
 
     @Column(name = "NR_CNPJ")
