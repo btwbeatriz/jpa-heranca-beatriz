@@ -11,8 +11,6 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "TB_PJ")
-@Inheritance(strategy = InheritanceType.JOINED)
 @DiscriminatorValue("PJ")
 public class PJ extends Pessoa {
 
